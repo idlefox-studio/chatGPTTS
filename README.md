@@ -79,6 +79,22 @@ AI:
 I am thinking about how to best manage my day so I can make the most of my time and be productive.
 ```
 
-Get details
-#### This section is hidden until you press "Get details"
+Default
+## Collapsed section
+
+<details><summary>Get details</summary>
+
+### This section is hidden until you press "Get details"
+
 You can include any markdown block here for view!
+
+</details>
+1
+2
+3
+4
+5
+6
+7
+8
+9
