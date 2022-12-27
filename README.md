@@ -141,22 +141,15 @@ For a given language, Google gTTS can speak in different local ‘accents’ dep
 | English (India)          | en           | co.in                |
 | French (Canada)          | en           | co.in                |
 
-<table>
-<tr>
-<th>Heading 1</th>
-<th>Heading 2</th>
-</tr>
-<tr>
+<table><tr><td>
 
-<td>
-
-| A | B | C |
+| **Local** | **Language** | **Top-level domain** |
 |--|--|--|
 | 1 | 2 | 3 |
 
 </td><td>
 
-| A | B | C |
+| **Local** | **Language** | **Top-level domain** |
 |--|--|--|
 | 1 | 2 | 3 |
 
