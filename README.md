@@ -81,3 +81,34 @@ AI:
 I am thinking about how to best manage my day so I can make the most of my time and be productive.
 ```
 </details>
+
+<details><summary>Example 2</summary>
+ 
+```
+chatGPTTS - beta
+
+Human:
+can you tell me the shortest route from Rome to Milan
+
+AI: 
+The shortest route from Rome to Milan is about 300 miles and can be driven in about 4 hours. The fastest route would be via the Autostrada del Sole, which travels from Rome to Bologna and then on to Milan.
+```
+</details>
+
+<details><summary>Example 3</summary>
+ 
+```python
+def speak(text, language='it'):
+    tts = gtts.gTTS(text,lang=language,slow=False)
+```
+```
+chatGPTTS - beta
+
+Human:
+puoi dirmi la via piu breve da Roma a Milano
+
+AI: 
+La via più breve da Roma a Milano è prendere l'autostrada A1, passando per Firenze. L'intero viaggio richiede circa 5 ore.
+```
+</details>
+- - - -
