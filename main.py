@@ -1,7 +1,6 @@
 # mastyDev 2022.12
 from os import environ
 environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
-
 import openai
 import gtts 
 import pygame
