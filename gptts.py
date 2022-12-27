@@ -5,6 +5,7 @@ import gtts
 import pygame
 import time
 
+os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
 openai.api_key = os.environ["OPENAI_API_KEY"] # OpenAI API
 pygame.init()
 pygame.mixer.init()
@@ -19,7 +20,7 @@ def speak(text, language='en'):
 # start_sequence = "\nAI:"
 # restart_sequence = "\nHuman: "
 
-desc=input(f"\nHuman: ")
+desc=input(f"\nHuman:\n")
 response = openai.Completion.create(
   model="text-davinci-003",
   prompt=desc,
