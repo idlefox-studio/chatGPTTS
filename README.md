@@ -97,26 +97,27 @@ Here's a list of common Country codes
 en: English
 es: Spanish
 it: Italian
-de: German
 fr: French
 </pre></td><td><pre>
 ja: Japanese
+de: German
 pt: Portuguese
 ko: Korean
-cs: Czech
-pl: Polish
 </pre></td><td><pre>
 ro: Romanian
 ru: Russian
-nl: Dutch
 sv: Swedish
 tr: Turkish
 </pre></td><td><pre>
 hi: Hindi
 et: Estonian
-sq: Albanian
 ar: Arabic
 zh: Chinese
+</pre></td><td><pre>
+cs: Czech
+pl: Polish
+sq: Albanian
+nl: Dutch
 </pre></td></tr></table>
 
 For a complete list of available languages you can also check with
