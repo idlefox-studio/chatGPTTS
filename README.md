@@ -161,9 +161,10 @@ tr: Turkish
 uk: Ukrainian
 ur: Urdu
 vi: Vietnamese
-zh-CN: Chinese (Simplified)
-zh-TW: Chinese (Mandarin/Taiwan)
 zh: Chinese (Mandarin)
+zh-CN: Chinese (Simplified)
+zh-TW: Chinese (Taiwan)
+
 </pre>
 </td>
 </tr>
