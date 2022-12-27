@@ -10,10 +10,16 @@ See the [gTTS Documentation](https://gtts.readthedocs.io/en/latest/).
 
 ## Installation
 
-In order to be able to run the script you have to make sure that you have the principle Libraries
+In order to be able to run the script you have to make sure that you have the requiered Libraries installed
 
 ```sh
 pip install --upgrade openai
+```
+```sh
+pip install gtts
+```
+```sh
+pip install pygame # for audio playback in script
 ```
 
 ## Usage
