@@ -1,18 +1,16 @@
 # mastyDev 2022.12
-from os import environ
-environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
+import os
 import openai # pip install openai
 import gtts 
 import pygame
 import time
-import keys # your API KEYS
 
-openai.api_key = keys.API # OpenAI API
+openai.api_key = os.environ["OPENAI_API_KEY"] # OpenAI API
 pygame.init()
 pygame.mixer.init()
 
 def speak(text, language='en'):
-    tts = gtts.gTTS(text,lang=language,slow=False)
+    tts = gtts.gTTS(text,lang=language,slow=True)
     tts.save('_temp3.mp3')
     pygame.mixer.music.load("_temp3.mp3")
     pygame.mixer.music.play()

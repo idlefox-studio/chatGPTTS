@@ -1,6 +1,6 @@
 # chatGPTTS
 
-Simple Integration of OpenAI chatGPT with gTTS
+Simple Integration of OpenAI chatGPT with gTTS (Google Text-to-Speech)
 
 ## Documentation
 
