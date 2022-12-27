@@ -35,8 +35,8 @@ echo $OPENAI_API_KEY
 ```
 The value of your API key will be the resulting output.
 
-You can set ‘OPENAI_API_KEY’ Environment Variable using bash
-by replacing .zshrc with .bash_profile.
+You can set `OPENAI_API_KEY` Environment Variable using bash
+by replacing `.zshrc` with `.bash_profile`.
 
 ###
 
