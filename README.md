@@ -73,8 +73,8 @@ Given a prompt, the model will return one or more predicted completions, and can
 chatGPTTS - beta
 
 Human:
-whats on your mind?
+whats on your mind\?
 
 AI: 
-I am thinking about how to best manage my day so I can make the most of my time and be productive.
+I am thinking about how to best manage my day so I can make the most of my \time and be productive.
 ```
