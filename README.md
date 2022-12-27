@@ -91,7 +91,30 @@ and then on to Milan.
 
 ### Language Customization
 
-For a complete list of available languages you can check with
+Here a list of Country codes
+
+<table>
+<tr>
+<td>
+<pre>
+console.log(fullName); // undefined
+fullName = "Dariana Trahan";
+console.log(fullName); // Dariana Trahan
+var fullName;
+</pre>
+</td>
+<td>
+<pre>
+var fullName;
+console.log(fullName); // undefined
+fullName = "Dariana Trahan";
+console.log(fullName); // Dariana Trahan
+</pre>
+</td>
+</tr>
+</table>
+
+For a complete list of available languages you can also check with
 ```sh
 gtts-cli --all
 ```
