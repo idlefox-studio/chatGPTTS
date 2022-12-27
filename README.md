@@ -91,7 +91,10 @@ and then on to Milan.
 
 ### Language Customization
 
-For a complete list of 
+For a complete list of available languages you can check with
+```sh
+gtts-cli --all
+```
 
 #### Italian
 ```python

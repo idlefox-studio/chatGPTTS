@@ -1,11 +1,11 @@
 # mastyDev 2022.12
 import os
+import time
 import openai # pip install openai
 import gtts 
 import contextlib
 with contextlib.redirect_stdout(None):
     import pygame
-import time
 
 openai.api_key = os.environ["OPENAI_API_KEY"] # OpenAI API
 pygame.init()
