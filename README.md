@@ -64,10 +64,10 @@ openai.api_key = "sk-..."
 
 Althogh you should use environment variables or a secret management tool to expose your key to your applications.
 
-
+- - - -
 
 #### Example
-Given a prompt, the model will return one or more predicted completions, and can also return the probabilities of alternative tokens at each position. gTTS will translate the response and output the audio along with the text
+Given a prompt, **<OpenAi>** model will return one or more predicted completions, and can also return the probabilities of alternative tokens at each position. **<gTTS>** will translate the response and output the audio along with the text
 
 ```
 chatGPTTS - beta
