@@ -67,12 +67,14 @@ Althogh you should use environment variables or a secret management tool to expo
 
 
 ## Example Code
-Given a prompt, the model will return one or more predicted completions, and can also return the probabilities of alternative tokens at each position.
+Given a prompt, the model will return one or more predicted completions, and can also return the probabilities of alternative tokens at each position. gTTS will translate the response and output the audio along with the text
 
 ```sh
-Human:
+chatGPTTS - beta
 
+Human:
+whats on your mind?
 
 AI: 
-
+I am thinking about how to best manage my day so I can make the most of my time and be productive.
 ```

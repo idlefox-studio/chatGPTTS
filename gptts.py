@@ -2,10 +2,11 @@
 import os
 import openai # pip install openai
 import gtts 
-import pygame
+import contextlib
+with contextlib.redirect_stdout(None):
+    import pygame
 import time
 
-os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
 openai.api_key = os.environ["OPENAI_API_KEY"] # OpenAI API
 pygame.init()
 pygame.mixer.init()
@@ -19,7 +20,7 @@ def speak(text, language='en'):
 #input
 # start_sequence = "\nAI:"
 # restart_sequence = "\nHuman: "
-
+print("chatGPTTS - beta")
 desc=input(f"\nHuman:\n")
 response = openai.Completion.create(
   model="text-davinci-003",
@@ -37,4 +38,4 @@ while pygame.mixer.music.get_busy() == True:
     time.sleep(1)
 else:
     pygame.mixer.music.stop()
-    time.sleep(1)
+    time.sleep(0)
