@@ -1,6 +1,6 @@
 # chatGPTTS
 
-Simple Integration of OpenAI chatGPT with gTTS (Google Text-to-Speech)
+Simple Integration of OpenAI chatGPT with gTTS
 
 ## Documentation
 
@@ -13,17 +13,19 @@ See the [gTTS Documentation](https://gtts.readthedocs.io/en/latest/).
 In order to be able to run the script you have to make sure that you have the requiered Libraries installed
 
 ```sh
-pip install --upgrade openai
+pip install --upgrade openai # chatGPT 
 ```
 ```sh
-pip install gtts
+pip install gtts # Google Text-to-Speech
 ```
 ```sh
-pip install pygame # for audio playback in script
+pip install pygame # for audio playback
 ```
 
 ## Usage
-The library needs to be configured with your account's secret key which is available on the [website](https://beta.openai.com/account/api-keys). Either set it as the `OPENAI_API_KEY` environment variable before using the library:
+The library needs to be configured with your account's secret key which is available on the [website](https://beta.openai.com/account/api-keys). 
+
+Either set it as the `OPENAI_API_KEY` environment variable before using the library:
 
 ### Linux / MacOS Set-up
 
@@ -58,4 +60,18 @@ Or set `openai.api_key` to its value:
 ```python
 import openai
 openai.api_key = "sk-..."
+```
+
+Althogh you should use environment variables or a secret management tool to expose your key to your applications.
+
+
+
+## Example Code
+Given a prompt, the model will return one or more predicted completions, and can also return the probabilities of alternative tokens at each position.
+
+```sh
+Q <:
+
+A >:
+
 ```

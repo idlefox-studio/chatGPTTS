@@ -16,7 +16,10 @@ def speak(text, language='en'):
     pygame.mixer.music.play()
 
 #input
-desc=input(f"ME >:\n")
+# start_sequence = "\nAI:"
+# restart_sequence = "\nHuman: "
+
+desc=input(f"\nHuman: ")
 response = openai.Completion.create(
   model="text-davinci-003",
   prompt=desc,
@@ -28,7 +31,7 @@ response = openai.Completion.create(
 )
 #output
 speak(response.choices[0].text)
-print(f"\nAI >:{response.choices[0].text}")
+print(f"\nAI:{response.choices[0].text}")
 while pygame.mixer.music.get_busy() == True:
     time.sleep(1)
 else:
