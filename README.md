@@ -112,7 +112,6 @@ es: Spanish
 et: Estonian
 fi: Finnish
 fr: French
-gu: Gujarati
 hi: Hindi
 hr: Croatian
 hu: Hungarian
@@ -140,13 +139,12 @@ nl: Dutch
 no: Norwegian
 pl: Polish
 pt: Portuguese
-ro: Romanian
 </pre>
 </td>
 <td>
 <pre>
+ro: Romanian
 ru: Russian
-si: Sinhala
 sk: Slovak
 sq: Albanian
 sr: Serbian
@@ -164,7 +162,6 @@ vi: Vietnamese
 zh: Chinese(Mandarin)
 zh-CN: Chinese(Simplified)
 zh-TW: Chinese(Taiwan)
-`
 </pre>
 </td>
 </tr>
