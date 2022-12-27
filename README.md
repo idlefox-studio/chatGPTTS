@@ -134,7 +134,7 @@ lv: Latvian
 ml: Malayalam
 mr: Marathi
 ms: Malay
-my: Myanmar (Burmese)
+my: Myanmar
 ne: Nepali
 nl: Dutch
 no: Norwegian
@@ -161,9 +161,9 @@ tr: Turkish
 uk: Ukrainian
 ur: Urdu
 vi: Vietnamese
-zh: Chinese (Mandarin)
-zh-CN: Chinese (Simplified)
-zh-TW: Chinese (Taiwan)
+zh: Chinese(Mandarin)
+zh-CN: Chinese(Simplified)
+zh-TW: Chinese(Taiwan)
 `
 </pre>
 </td>
