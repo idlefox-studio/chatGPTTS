@@ -67,7 +67,7 @@ Althogh you should use environment variables or a secret management tool to expo
 - - - -
 
 #### Example
-Given a prompt, **OpenAi** model will return one or more predicted completions, and can also return the probabilities of alternative tokens at each position. **gTTS** will translate the response and output the audio along with the text
+Given a prompt, **OpenAi** model will return one or more predicted completions, and can also return the probabilities of alternative tokens at each position. **gTTS** will generate the response and output the audio along with the text
 
 ```
 chatGPTTS - beta
@@ -78,3 +78,7 @@ whats on your mind
 AI: 
 I am thinking about how to best manage my day so I can make the most of my time and be productive.
 ```
+
+Get details
+#### This section is hidden until you press "Get details"
+You can include any markdown block here for view!
