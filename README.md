@@ -17,8 +17,9 @@ pip install --upgrade openai
 ```
 
 ## Usage
-### Linux / MacOS Set-up
 The library needs to be configured with your account's secret key which is available on the [website](https://beta.openai.com/account/api-keys). Either set it as the `OPENAI_API_KEY` environment variable before using the library:
+
+### Linux / MacOS Set-up
 
 1. Run the following command in your terminal, replacing your key with your [API Keys](https://beta.openai.com/account/api-keys).
 ```bash
