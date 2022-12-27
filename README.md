@@ -132,7 +132,14 @@ AIのさまざまなドメイン/サブセットとは、人工知能の分野�
 
 For a given language, **Google gTTS** can speak in different local ‘accents’ depending on the Google domain (google.**tld** - Top-Level domain) of the request, with some examples shown in the table below.
 
+```python
+import gtts
+
+tts = gtts.gTTS(text,lang="en",tld="co.uk", slow=False)
+```
+
 <table><tr><td>
+
 | **Local**                 | **Language** | **tld**              |
 | :------------------------ | :----------: | -------------------: |
 | English (Australia)       | en           | com.au               |
@@ -143,7 +150,9 @@ For a given language, **Google gTTS** can speak in different local ‘accents’
 | English (Ireland)         | en           | ie                   |
 | English (South Africa)    | en           | co.za                |
 | French (Canada)           | fr           | co.in                |
+
 </td><td>
+
 | **Local**                 | **Language** | **tld**              |
 | :------------------------ | :----------: | -------------------: |
 | French (Canada)           | fr           | fr                   |
@@ -154,4 +163,5 @@ For a given language, **Google gTTS** can speak in different local ‘accents’
 | Spanish (Mexico)          | es           | com.mx               |
 | Spanish (Spain)           | es           | es                   |
 | Spanish (US)              | es           | com                  |
+
 </td></tr> </table>
