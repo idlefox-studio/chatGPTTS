@@ -84,7 +84,7 @@ Human:
 can you tell me the shortest route from Rome to Milan
 
 AI: 
-The shortest route from Rome to Milan is about 300 miles and can be driven in about 4 hours.
+The shortest route from Rome to Milan is about 300 miles and can be driven in about 5 hours.
 The fastest route would be via the Autostrada del Sole, which travels from Rome to Bologna
 and then on to Milan.
 ```
@@ -112,10 +112,10 @@ def speak(text, language='ja'):
 ```
 ```
 Human:
-how do you write and say "Hello World" in japanese?
+AI のさまざまなドメイン/サブセットとは?
 
 AI: 
-こんにちは世界. (Kon'nichiwa Sekai)
+AIのさまざまなドメイン/サブセットとは、人工知能の分野を構成するさまざまな専門領域に関するものです。例えば、機械学習、自然言語処理、コンピュータビジョン、ロボティクスなどです。これらのドメイン/サブセットでは、AIの要素が多くの方法で用いられています。通常、AI強化学習などの技術を用いて、分野の特性を学んでいきます。
 ```
 
 
