@@ -82,8 +82,8 @@ I am thinking about how to best manage my day so I can make the most of my time 
 ```
 </details>
 
-<details><summary>Example 2</summary>
- 
+### Customizations
+
 ```
 chatGPTTS - beta
 
@@ -91,13 +91,15 @@ Human:
 can you tell me the shortest route from Rome to Milan
 
 AI: 
-The shortest route from Rome to Milan is about 300 miles and can be driven in about 4 hours. The fastest route would be via the Autostrada del Sole, which travels from Rome to Bologna and then on to Milan.
+The shortest route from Rome to Milan is about 300 miles and can be driven in about 4 hours.
+The fastest route would be via the Autostrada del Sole, which travels from Rome to Bologna and then on to Milan.
 ```
 </details>
 
 <details><summary>Example 3</summary>
  
 ```python
+# change the default language 
 def speak(text, language='it'):
     tts = gtts.gTTS(text,lang=language,slow=False)
 ```
