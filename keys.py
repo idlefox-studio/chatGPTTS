@@ -1,1 +1,1 @@
-openai="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"
+API="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"

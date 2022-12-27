@@ -2,13 +2,13 @@
 from os import environ
 environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
 
+import openai
 import gtts 
 import pygame
-import openai
 import time
 import keys
 
-openai.api_key = keys.openai # OpenAI API
+openai.api_key = keys.API # OpenAI API
 pygame.init()
 pygame.mixer.init()
 
