@@ -17,7 +17,7 @@ def speak(text, language='it'):
     pygame.mixer.music.load("_temp3.mp3")
     pygame.mixer.music.play()
 
-#input
+#input 
 # start_sequence = "\nAI:"
 # restart_sequence = "\nHuman: "
 print("chatGPTTS")
