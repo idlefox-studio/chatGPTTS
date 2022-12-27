@@ -132,25 +132,30 @@ AIのさまざまなドメイン/サブセットとは、人工知能の分野�
 
 For a given language, Google gTTS can speak in different local ‘accents’ depending on the Google domain (google.**tld**) of the request, with some examples shown in the table below.
 
-
-| **Local**                | **Language** | **Top-level domain** |
-| :----------------------- | :----------: | -------------------: |
-| English (United States)  | en           | com                  |
-| English (Australia)      | en           | com.au               |
-| English (United Kingdom) | en           | co.uk                |
-| English (India)          | en           | co.in                |
-| French (Canada)          | en           | co.in                |
-
 <table><tr><td>
 
-| **Local** | **Language** | **Top-level domain** |
-|--|--|--|
-| 1 | 2 | 3 |
+| **Local**                 | **Language** | **Top-level domain** |
+| :------------------------ | :----------: | -------------------: |
+| English (Australia)       | en           | com.au               |
+| English (United Kingdom)  | en           | co.uk                |
+| English (United States)   | en           | com                  |
+| English (Canada)          | en           | ca                   |
+| English (India)           | en           | co.in                |
+| English (Ireland)         | en           | ie                   |
+| English (South Africa)    | en           | co.za                |
+| French (Canada)           | fr           | co.in                |
 
 </td><td>
 
-| **Local** | **Language** | **Top-level domain** |
-|--|--|--|
-| 1 | 2 | 3 |
+| **Local**                 | **Language** | **Top-level domain** |
+| :------------------------ | :----------: | -------------------: |
+| French (Canada)           | fr           | fr                   |
+| Mandarin (China Mainland) | zh-CN        | any                  |
+| Mandarin (Taiwan)         | zh-TW        | any                  |
+| Portuguese (Brazil)       | pt           | com.br               |
+| Portuguese (Portugal)     | pt           | pt                   |
+| Spanish (Mexico)          | es           | com.mx               |
+| Spanish (Spain)           | es           | es                   |
+| Spanish (United States)   | es           | com                  |
 
 </td></tr> </table>
