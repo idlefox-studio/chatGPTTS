@@ -91,81 +91,30 @@ and then on to Milan.
 
 ### Language Customization
 
-Here a list of Country codes
+Here a list of common Country codes
 
-<table>
-<tr>
-<td>
-<pre>
-af: Afrikaans
-ar: Arabic
-bg: Bulgarian
-bn: Bengali
-bs: Bosnian
-ca: Catalan
-cs: Czech
-da: Danish
-de: German
-el: Greek
+<table><tr><td><pre>
 en: English
+de: German
+it: Italian
 es: Spanish
-et: Estonian
-fi: Finnish
 fr: French
 hi: Hindi
-hr: Croatian
-hu: Hungarian
-id: Indonesian
-</pre>
-</td>
-<td>
-<pre>
-is: Icelandic
-it: Italian
-iw: Hebrew
+</pre></td><td><pre>
 ja: Japanese
-jw: Javanese
-km: Khmer
-kn: Kannada
-ko: Korean
-la: Latin
-lv: Latvian
-ml: Malayalam
-mr: Marathi
-ms: Malay
-my: Myanmar
-ne: Nepali
-nl: Dutch
-no: Norwegian
-pl: Polish
 pt: Portuguese
-</pre>
-</td>
-<td>
-<pre>
+ko: Korean
+cs: Czech
+pl: Polish
+ar: Arabic
+</pre></td><td><pre>
 ro: Romanian
 ru: Russian
-sk: Slovak
-sq: Albanian
-sr: Serbian
-su: Sundanese
+nl: Dutch
 sv: Swedish
-sw: Swahili
-ta: Tamil
-te: Telugu
-th: Thai
-tl: Filipino
 tr: Turkish
-uk: Ukrainian
-ur: Urdu
-vi: Vietnamese
-zh: Chinese(Mandarin)
-zh-CN: Chinese(Simplified)
-zh-TW: Chinese(Taiwan)
-</pre>
-</td>
-</tr>
-</table>
+zh: Chinese
+</pre></td></tr></table>
 
 For a complete list of available languages you can also check with
 ```sh
