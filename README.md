@@ -71,6 +71,7 @@ Given a prompt, **OpenAi** model will return one or more predicted completions, 
 
 <details><summary>Example 1</summary>
 
+
 ```
 chatGPTTS - beta
 
