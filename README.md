@@ -91,7 +91,7 @@ and then on to Milan.
 
 ### Language Customization
 
-Here a list of common Country codes
+Here's a list of common Country codes
 
 <table><tr><td><pre>
 en: English
