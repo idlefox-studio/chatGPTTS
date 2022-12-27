@@ -69,32 +69,14 @@ Althogh you should use environment variables or a secret management tool to expo
 #### Example
 Given a prompt, **OpenAi** model will return one or more predicted completions, and can also return the probabilities of alternative tokens at each position. **gTTS** will generate the response and output the audio along with the text
 
+<details><summary>Example 1</summary>
 ```
 chatGPTTS - beta
 
 Human:
-whats on your mind
+whats on your mind?
 
 AI: 
 I am thinking about how to best manage my day so I can make the most of my time and be productive.
 ```
-
-Default
-## Collapsed section
-
-<details><summary>Get details</summary>
-
-### This section is hidden until you press "Get details"
-
-You can include any markdown block here for view!
-
 </details>
-1
-2
-3
-4
-5
-6
-7
-8
-9
