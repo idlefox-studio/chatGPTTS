@@ -95,24 +95,27 @@ Here's a list of common Country codes
 
 <table><tr><td><pre>
 en: English
-de: German
-it: Italian
 es: Spanish
+it: Italian
+de: German
 fr: French
-hi: Hindi
 </pre></td><td><pre>
 ja: Japanese
 pt: Portuguese
 ko: Korean
 cs: Czech
 pl: Polish
-ar: Arabic
 </pre></td><td><pre>
 ro: Romanian
 ru: Russian
 nl: Dutch
 sv: Swedish
 tr: Turkish
+</pre></td><td><pre>
+hi: Hindi
+et: Estonian
+sq: Albanian
+ar: Arabic
 zh: Chinese
 </pre></td></tr></table>
 
