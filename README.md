@@ -33,22 +33,23 @@ source ~/.zshrc
 ```bash
 echo $OPENAI_API_KEY
 ```
+The value of your API key will be the resulting output.
+
+You can set ‘OPENAI_API_KEY’ Environment Variable using bash
+by replacing .zshrc with .bash_profile.
+
+###
+
+```python
+import os
+import openai
+
+openai.api_key = os.environ["OPENAI_API_KEY"]
+```
 
 Or set `openai.api_key` to its value:
 
 ```python
 import openai
 openai.api_key = "sk-..."
-
-# list engines
-engines = openai.Engine.list()
-
-# print the first engine's id
-print(engines.data[0].id)
-
-# create a completion
-completion = openai.Completion.create(engine="ada", prompt="Hello world")
-
-# print the completion
-print(completion.choices[0].text)
 ```
