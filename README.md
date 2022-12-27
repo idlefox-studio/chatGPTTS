@@ -21,7 +21,7 @@ pip install gtts # Google Text-to-Speech
 ```sh
 pip install pygame # for audio playback
 ```
-
+- - - -
 ## Usage
 The library needs to be configured with your account's secret key which is available on the [website](https://beta.openai.com/account/api-keys). 
 
@@ -66,15 +66,15 @@ Althogh you should use environment variables or a secret management tool to expo
 
 
 
-## Example Code
+#### Example
 Given a prompt, the model will return one or more predicted completions, and can also return the probabilities of alternative tokens at each position. gTTS will translate the response and output the audio along with the text
 
-```sh
+```
 chatGPTTS - beta
 
 Human:
-whats on your mind\?
+whats on your mind
 
 AI: 
-I am thinking about how to best manage my day so I can make the most of my \time and be productive.
+I am thinking about how to best manage my day so I can make the most of my time and be productive.
 ```
