@@ -21,7 +21,7 @@ The library needs to be configured with your account's secret key which is avail
 
 ### Linux / MacOS Set-up
 
-1. Run the following command in your terminal, replacing your key with your [API Keys](https://beta.openai.com/account/api-keys).
+1. Run the following command in your terminal, replacing `yourkey` with your [API Keys](https://beta.openai.com/account/api-keys).
 ```bash
 echo "export OPENAI_API_KEY='yourkey'" >> ~/.zshrc
 ```
