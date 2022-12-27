@@ -130,11 +130,10 @@ AIのさまざまなドメイン/サブセットとは、人工知能の分野�
 
 #### Localized ‘accents’
 
-For a given language, Google gTTS can speak in different local ‘accents’ depending on the Google domain (google.**tld** - Top-Level domain) of the request, with some examples shown in the table below.
+For a given language, **Google gTTS** can speak in different local ‘accents’ depending on the Google domain (google.**tld** - Top-Level domain) of the request, with some examples shown in the table below.
 
 <table><tr><td>
-
-| **Local**                 | **Language** | **tld** |
+| **Local**                 | **Language** | **tld**              |
 | :------------------------ | :----------: | -------------------: |
 | English (Australia)       | en           | com.au               |
 | English (UK)              | en           | co.uk                |
@@ -144,10 +143,8 @@ For a given language, Google gTTS can speak in different local ‘accents’ dep
 | English (Ireland)         | en           | ie                   |
 | English (South Africa)    | en           | co.za                |
 | French (Canada)           | fr           | co.in                |
-
 </td><td>
-
-| **Local**                 | **Language** | **tld** |
+| **Local**                 | **Language** | **tld**              |
 | :------------------------ | :----------: | -------------------: |
 | French (Canada)           | fr           | fr                   |
 | Mandarin (China)          | zh-CN        | any                  |
@@ -157,5 +154,4 @@ For a given language, Google gTTS can speak in different local ‘accents’ dep
 | Spanish (Mexico)          | es           | com.mx               |
 | Spanish (Spain)           | es           | es                   |
 | Spanish (US)              | es           | com                  |
-
 </td></tr> </table>
