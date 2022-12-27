@@ -40,8 +40,10 @@ source ~/.zshrc
 3. Confirm that you have set your environment variable using the following command. 
 ```bash
 echo $OPENAI_API_KEY
+# The value of your API key will be the resulting output.
 ```
-The value of your API key will be the resulting output.
+
+### Import
 
 You can set `OPENAI_API_KEY` Environment Variable using bash
 by replacing `.zshrc` with `.bash_profile`.
@@ -89,6 +91,7 @@ and then on to Milan.
 
 ### Language Customization
 
+#### Italian
 ```python
 # change the default language 
 def speak(text, language='it'):
@@ -102,7 +105,7 @@ AI:
 La via più breve da Roma a Milano è prendere l'autostrada A1, passando per Firenze.
 L'intero viaggio richiede circa 5 ore.
 ```
-
+#### Japanese
 ```python
 def speak(text, language='ja'):
     tts = gtts.gTTS(text,lang=language,slow=False)
