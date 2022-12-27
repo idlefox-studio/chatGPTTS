@@ -134,7 +134,7 @@ For a given language, Google gTTS can speak in different local ‘accents’ dep
 
 | Local                    | Language | Top-level domain |
 | left                     | center   | right            |
-| ------------------------ | -------- | ---------------- |
+| :----------------------- | :------: | ---------------: |
 | English (United States)  | en       | com #default     |
 | English (Australia)      | en       | com.au           |
 | English (United Kingdom) | en       | co.uk            |
