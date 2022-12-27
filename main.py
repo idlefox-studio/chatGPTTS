@@ -1,11 +1,11 @@
 # mastyDev 2022.12
 from os import environ
 environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
-import openai
+import openai # pip install openai
 import gtts 
 import pygame
 import time
-import keys
+import keys # your API KEYS
 
 openai.api_key = keys.API # OpenAI API
 pygame.init()
