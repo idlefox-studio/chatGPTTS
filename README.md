@@ -30,18 +30,18 @@ Either set it as the `OPENAI_API_KEY` environment variable before using the libr
 ### Linux / MacOS Set-up
 
 1. Run the following command in your terminal, replacing `yourkey` with your [API Keys](https://beta.openai.com/account/api-keys).
-```bash
-echo "export OPENAI_API_KEY='yourkey'" >> ~/.zshrc
-```
+>```bash
+>echo "export OPENAI_API_KEY='yourkey'" >> ~/.zshrc
+>```
 2. Update the shell with the new variable:
-```bash
-source ~/.zshrc
-```
+>```bash
+>source ~/.zshrc
+>```
 3. Confirm that you have set your environment variable using the following command. 
-```bash
-echo $OPENAI_API_KEY
-# The value of your API key will be the resulting output.
-```
+>```bash
+>echo $OPENAI_API_KEY
+># The value of your API key will be the resulting output.
+>```
 
 ### Import
 
@@ -50,19 +50,19 @@ by replacing `.zshrc` with `.bash_profile`.
 
 ###
 
-```python
-import os
-import openai
-
-openai.api_key = os.environ["OPENAI_API_KEY"]
-```
+>```python
+>import os
+>import openai
+>
+>openai.api_key = os.environ["OPENAI_API_KEY"]
+>```
 
 Or set `openai.api_key` to its value:
 
-```python
-import openai
-openai.api_key = "sk-..."
-```
+>```python
+>import openai
+>openai.api_key = "sk-..."
+>```
 
 Althogh you should use environment variables or a secret management tool to expose your key to your applications.
 
@@ -91,7 +91,7 @@ and then on to Milan.
 
 ### Language Customization
 
-Here's a list of common Country codes
+
 
 <table><tr><td><pre>
 en: English
@@ -126,11 +126,11 @@ gtts-cli --all
 ```
 
 #### Italian
-```python
-# change the default language 
-def speak(text, language='it'):
-    tts = gtts.gTTS(text,lang=language,slow=False)
-```
+>```python
+># change the default language 
+>def speak(text, language='it'):
+>    tts = gtts.gTTS(text,lang=language,slow=False)
+>```
 ```
 Human:
 puoi dirmi la via piu breve da Roma a Milano
@@ -140,10 +140,10 @@ La via più breve da Roma a Milano è prendere l'autostrada A1, passando per Fir
 L'intero viaggio richiede circa 5 ore.
 ```
 #### Japanese
-```python
-def speak(text, language='ja'):
-    tts = gtts.gTTS(text,lang=language,slow=True)
-```
+>```python
+>def speak(text, language='ja'):
+>    tts = gtts.gTTS(text,lang=language,slow=True)
+>```
 ```
 Human:
 AI のさまざまなドメイン/サブセットとは?
@@ -161,11 +161,11 @@ AIのさまざまなドメイン/サブセットとは、人工知能の分野�
 
 For a given language, **Google gTTS** can speak in different local ‘accents’ depending on the Google domain (google.**tld** - Top-Level domain) of the request, with some examples shown in the table below.
 
-```python
-import gtts
-
-tts = gtts.gTTS(text,lang="en",tld="co.uk", slow=False)
-```
+>```python
+>import gtts
+>
+>tts = gtts.gTTS(text,lang="en",tld="co.uk", slow=False)
+>```
 
 <table><tr><td>
 
