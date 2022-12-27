@@ -93,7 +93,7 @@ and then on to Milan.
 
 
 
-<table><tr><td><pre>
+<table><td><pre>
 en: English
 es: Spanish
 it: Italian
@@ -118,7 +118,7 @@ cs: Czech
 pl: Polish
 sq: Albanian
 nl: Dutch
-</pre></td></tr></table>
+</pre></td></table>
 
 For a complete list of available languages you can also check with
 ```sh
@@ -167,7 +167,7 @@ For a given language, **Google gTTS** can speak in different local ‘accents’
 >tts = gtts.gTTS(text,lang="en",tld="co.uk", slow=False)
 >```
 
-<table><tr><td>
+<table><td>
 
 | **Local**                 | **Language** | **tld**              |
 | :------------------------ | :----------: | -------------------: |
@@ -193,4 +193,4 @@ For a given language, **Google gTTS** can speak in different local ‘accents’
 | Spanish (Spain)           | es           | es                   |
 | Spanish (US)              | es           | com                  |
 
-</td></tr> </table>
+</td></table>
