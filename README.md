@@ -132,10 +132,10 @@ AIのさまざまなドメイン/サブセットとは、人工知能の分野�
 
 For a given language, Google gTTS can speak in different local ‘accents’ depending on the Google domain (google.**tld**) of the request, with some examples shown in the table below.
 
-| Local                    | Language | Top-level domain |  | Local |
-| ------------------------ | -------- | ---------------- |  | ----- |
-| English (United States)  | en       | com #default     |  | 01    |
-| English (Australia)      | en       | com.au           |  | 02    |
-| English (United Kingdom) | en       | co.uk            |  | 03    |
-| English (India)          | en       | co.in            |  | 04    |
-| French (Canada)          | en       | co.in            |  | 05    |
+| Local                    | Language | Top-level domain |   | Local |
+| ------------------------ | -------- | ---------------- |   | ----- |
+| English (United States)  | en       | com #default     |   | 01    |
+| English (Australia)      | en       | com.au           |   | 02    |
+| English (United Kingdom) | en       | co.uk            |   | 03    |
+| English (India)          | en       | co.in            |   | 04    |
+| French (Canada)          | en       | co.in            |   | 05    |
