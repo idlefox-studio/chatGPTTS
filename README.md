@@ -91,6 +91,8 @@ and then on to Milan.
 
 ### Language Customization
 
+For a complete list of 
+
 #### Italian
 ```python
 # change the default language 
@@ -120,6 +122,10 @@ AIのさまざまなドメイン/サブセットとは、人工知能の分野�
 これらのドメイン/サブセットでは AIの要素が多くの方法で用いられています。
 通常、AI強化学習などの技術を用いて、分野の特性を学んでいきます。
 ```
+
+### Localized ‘accents’
+
+For a given language, Google gTTS can speak in different local ‘accents’ depending on the Google domain (google.**tld**) of the request, with some examples shown in the table below.
 
 - - - -
 
