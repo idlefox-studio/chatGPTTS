@@ -108,7 +108,9 @@ Human:
 puoi dirmi la via piu breve da Roma a Milano
 
 AI: 
-La via più breve da Roma a Milano è prendere l'autostrada A1, passando per Firenze. L'intero viaggio richiede circa 5 ore.
+La via più breve da Roma a Milano è prendere l'autostrada A1, passando per Firenze.
+L'intero viaggio richiede circa 5 ore.
 ```
 </details>
+
 - - - -
