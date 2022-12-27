@@ -71,8 +71,6 @@ Given a prompt, **OpenAi** model will return one or more predicted completions, 
 
  
 ```
-chatGPTTS - beta
-
 Human:
 whats on your mind?
 
@@ -80,8 +78,6 @@ AI:
 I am thinking about how to best manage my day so I can make the most of my time and be productive.
 ```
 ```
-chatGPTTS - beta
-
 Human:
 can you tell me the shortest route from Rome to Milan
 
