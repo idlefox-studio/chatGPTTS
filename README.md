@@ -93,12 +93,12 @@ and then on to Milan.
 
 
 
-<table><td>
+<table><td><pre>
 en: English
 es: Spanish
 it: Italian
 fr: French
-</td><td><pre>
+</pre></td><td><pre>
 ja: Japanese
 de: German
 pt: Portuguese
