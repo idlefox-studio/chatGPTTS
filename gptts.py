@@ -11,7 +11,7 @@ openai.api_key = os.environ["OPENAI_API_KEY"] # OpenAI API
 pygame.init()
 pygame.mixer.init()
 
-def speak(text, language='it'):
+def speak(text, language='ja'):
     tts = gtts.gTTS(text,lang=language,slow=False)
     tts.save('_temp3.mp3')
     pygame.mixer.music.load("_temp3.mp3")
@@ -33,7 +33,7 @@ response = openai.Completion.create(
 )
 #output
 speak(response.choices[0].text)
-print(f"\nAI:{response.choices[0].text}")
+print(f"\nAI:\n{response.choices[0].text.strip()}")
 while pygame.mixer.music.get_busy() == True:
     time.sleep(1)
 else:

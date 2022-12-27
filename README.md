@@ -69,7 +69,6 @@ Althogh you should use environment variables or a secret management tool to expo
 #### Example
 Given a prompt, **OpenAi** model will return one or more predicted completions, and can also return the probabilities of alternative tokens at each position. **gTTS** will generate the response and output the audio along with the text
 
-<details><summary>Example 1</summary>
  
 ```
 chatGPTTS - beta
@@ -80,10 +79,6 @@ whats on your mind?
 AI: 
 I am thinking about how to best manage my day so I can make the most of my time and be productive.
 ```
-</details>
-
-### Customizations
-
 ```
 chatGPTTS - beta
 
@@ -92,20 +87,18 @@ can you tell me the shortest route from Rome to Milan
 
 AI: 
 The shortest route from Rome to Milan is about 300 miles and can be driven in about 4 hours.
-The fastest route would be via the Autostrada del Sole, which travels from Rome to Bologna and then on to Milan.
+The fastest route would be via the Autostrada del Sole, which travels from Rome to Bologna
+and then on to Milan.
 ```
-</details>
 
-<details><summary>Example 3</summary>
- 
+### Language Customization
+
 ```python
 # change the default language 
 def speak(text, language='it'):
     tts = gtts.gTTS(text,lang=language,slow=False)
 ```
 ```
-chatGPTTS - beta
-
 Human:
 puoi dirmi la via piu breve da Roma a Milano
 
@@ -113,6 +106,19 @@ AI:
 La via più breve da Roma a Milano è prendere l'autostrada A1, passando per Firenze.
 L'intero viaggio richiede circa 5 ore.
 ```
-</details>
+
+```python
+def speak(text, language='ja'):
+    tts = gtts.gTTS(text,lang=language,slow=False)
+```
+```
+Human:
+how do you write and say "Hello World" in japanese?
+
+AI: 
+こんにちは世界. (Kon'nichiwa Sekai)
+```
+
 
 - - - -
+
