@@ -170,26 +170,26 @@ For a given language, **Google gTTS** can speak in different local ‘accents’
 
 | **Local**                 | **Language** | **tld**              |
 | :------------------------ | :----------: | -------------------: |
-| English (Australia)       | en           | com.au               |
-| English (UK)              | en           | co.uk                |
-| English (US)              | en           | com                  |
-| English (Canada)          | en           | ca                   |
-| English (India)           | en           | co.in                |
-| English (Ireland)         | en           | ie                   |
-| English (South Africa)    | en           | co.za                |
-| French (Canada)           | fr           | co.in                |
+| English (Australia)       | en           | `com.au`             |
+| English (UK)              | en           | `co.uk`              |
+| English (US)              | en           | `com`                |
+| English (Canada)          | en           | `ca`                 |
+| English (India)           | en           | `co.in`              |
+| English (Ireland)         | en           | `ie`                 |
+| English (South Africa)    | en           | `co.za`              |
+| French (Canada)           | fr           | `co.in`              |
 
 </td><td>
 
 | **Local**                 | **Language** | **tld**              |
 | :------------------------ | :----------: | -------------------: |
-| French (Canada)           | fr           | fr                   |
+| French (Canada)           | fr           | `fr`                   |
 | Mandarin (China)          | zh-CN        | any                  |
 | Mandarin (Taiwan)         | zh-TW        | any                  |
-| Portuguese (Brazil)       | pt           | com.br               |
-| Portuguese (Portugal)     | pt           | pt                   |
-| Spanish (Mexico)          | es           | com.mx               |
-| Spanish (Spain)           | es           | es                   |
-| Spanish (US)              | es           | com                  |
+| Portuguese (Brazil)       | pt           | `com.br`               |
+| Portuguese (Portugal)     | pt           | `pt`                   |
+| Spanish (Mexico)          | es           | `com.mx`               |
+| Spanish (Spain)           | es           | `es`                   |
+| Spanish (US)              | es           | `com`                  |
 
 </td></table>
