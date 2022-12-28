@@ -40,7 +40,7 @@ You can follow this steps to set environment variables in Winsows. [Steps](https
 >```bash
 >source ~/.zshrc
 >```
-3. (optional)Confirm that you have set your environment variable using the following command. 
+3. (optional) Confirm that you have set your environment variable using the following command. 
 >```bash
 >echo $OPENAI_API_KEY
 ># The value of your API key will be the resulting output.
@@ -72,7 +72,12 @@ Althogh you should use environment variables or a secret management tool to expo
 - - - -
 
 #### Example
-Given a prompt, **OpenAi** model will return one or more predicted completions, and can also return the probabilities of alternative tokens at each position. **gTTS** will generate the response and output the audio along with text
+Given a prompt, **OpenAi** model will return one or more predicted completions, and can also return the probabilities of alternative tokens at each position. 
+
+**OpenAi** models can do everything from generating original stories to performing complex text analysis. 
+Because they can do so many things, you have to be explicit in describing what you want. Showing, not just telling, is often the secret to a good prompt.
+
+**gTTS** will generate the audio mp4 and output it along with text. 
 
  
 ```

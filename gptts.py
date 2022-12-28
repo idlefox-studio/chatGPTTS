@@ -18,17 +18,17 @@ def speak(text, language='en'):
     pygame.mixer.music.load(filename)
     pygame.mixer.music.play()
 
-#input 
 print("chatGPTTS")
+#input 
 desc=input(f"\nHuman:\n")
 response = openai.Completion.create(
   model="text-davinci-003",
   prompt=desc,
-  temperature=0.9,
+  temperature=8,
   max_tokens=128,
   top_p=1,
-  frequency_penalty=-0.1,
-  presence_penalty=0.75,
+  frequency_penalty=-0.0,
+  presence_penalty=0.0,
 )
 #output
 speak(response.choices[0].text)
