@@ -11,15 +11,16 @@ openai.api_key = os.environ["OPENAI_API_KEY"] # OpenAI API
 pygame.init()
 pygame.mixer.init()
 
-def speak(text, language='it'):
+def speak(text, language='en'):
+    filename="_temp.mp4"
     tts = gtts.gTTS(text,lang=language,tld="co.uk", slow=False)
-    tts.save('_temp3.mp3')
-    pygame.mixer.music.load("_temp3.mp3")
+    tts.save(filename)
+    pygame.mixer.music.load(filename)
     pygame.mixer.music.play()
 
 #input 
-# start_sequence = "\nAI:"
-# restart_sequence = "\nHuman: "
+# start_sequence = "\nAI:\n"
+# restart_sequence = "\nHuman:\n"
 print("chatGPTTS")
 desc=input(f"\nHuman:\n")
 response = openai.Completion.create(

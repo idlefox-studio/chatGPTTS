@@ -26,8 +26,11 @@ pip install pygame # for audio playback
 The library needs to be configured with your account's secret key which is available on the [website](https://beta.openai.com/account/api-keys). 
 
 Either set it as the `OPENAI_API_KEY` environment variable before using the library:
+### Windows Set-up
 
-### Linux / MacOS Set-up
+You can follow this steps to set environment variables in Winsows. [Steps](https://phoenixnap.com/kb/windows-set-environment-variable)
+
+### Linux / Mac Set-up
 
 1. Run the following command in your terminal, replacing `yourkey` with your [API Keys](https://beta.openai.com/account/api-keys).
 >```bash
@@ -81,13 +84,16 @@ I am thinking about how to best manage my day so I can make the most of my time 
 ```
 ```
 Human:
-can you tell me the shortest route from Rome to Milan
+Complete this quote "Always forgive your enemies..." and tell me who said that
 
 AI: 
-The shortest route from Rome to Milan is about 300 miles and can be driven in about 5 hours.
-The fastest route would be via the Autostrada del Sole, which travels from Rome to Bologna
-and then on to Milan.
+"Always forgive your enemies; nothing annoys them so much." - Oscar Wilde
 ```
+
+readme.mp4
+
+https://user-images.githubusercontent.com/106842965/209739413-bd9c656f-5066-4647-9533-e638aff28e49.mp4
+
 
 ### Language Customization
 
