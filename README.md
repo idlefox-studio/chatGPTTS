@@ -178,18 +178,16 @@ For a given language, **Google gTTS** can speak in different local ‘accents’
 | English (Ireland)         | en           | `ie`                 |
 | English (South Africa)    | en           | `co.za`              |
 | French (Canada)           | fr           | `co.in`              |
-
 </td><td>
 
 | **Local**                 | **Language** | **tld**              |
 | :------------------------ | :----------: | -------------------: |
-| French (Canada)           | fr           | `fr`                   |
+| French (Canada)           | fr           | `fr`                 |
 | Mandarin (China)          | zh-CN        | any                  |
 | Mandarin (Taiwan)         | zh-TW        | any                  |
-| Portuguese (Brazil)       | pt           | `com.br`               |
-| Portuguese (Portugal)     | pt           | `pt`                   |
-| Spanish (Mexico)          | es           | `com.mx`               |
-| Spanish (Spain)           | es           | `es`                   |
-| Spanish (US)              | es           | `com`                  |
-
+| Portuguese (Brazil)       | pt           | `com.br`             |
+| Portuguese (Portugal)     | pt           | `pt`                 |
+| Spanish (Mexico)          | es           | `com.mx`             |
+| Spanish (Spain)           | es           | `es`                 |
+| Spanish (US)              | es           | `com`                |
 </td></table>
