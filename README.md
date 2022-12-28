@@ -89,15 +89,10 @@ Complete this quote "Always forgive your enemies..." and tell me who said that
 AI: 
 "Always forgive your enemies; nothing annoys them so much." - Oscar Wilde
 ```
-
-readme.mp4
-
-https://user-images.githubusercontent.com/106842965/209739413-bd9c656f-5066-4647-9533-e638aff28e49.mp4
+https://github.com/mastyDev/chatGPTTS/blob/master/readme.mp4
 
 
 ### Language Customization
-
-https://user-images.githubusercontent.com/106842965/209739413-bd9c656f-5066-4647-9533-e638aff28e49.mp4
 
 <table><td><pre>
 en: English
