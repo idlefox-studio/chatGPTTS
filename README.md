@@ -40,7 +40,7 @@ You can follow this steps to set environment variables in Winsows. [Steps](https
 >```bash
 >source ~/.zshrc
 >```
-3. Confirm that you have set your environment variable using the following command. 
+3. (optional)Confirm that you have set your environment variable using the following command. 
 >```bash
 >echo $OPENAI_API_KEY
 ># The value of your API key will be the resulting output.
@@ -152,6 +152,21 @@ AIのさまざまなドメイン/サブセットとは、人工知能の分野�
 例えば、機械学習、自然言語処理、コンピュータビジョン、ロボティクスなどです。
 これらのドメイン/サブセットでは AIの要素が多くの方法で用いられています。
 通常、AI強化学習などの技術を用いて、分野の特性を学んでいきます。
+```
+#### Russian
+>```python
+>def speak(text, language='ru'):
+>    tts = gtts.gTTS(text,lang=language,slow=True)
+>```
+```
+Human:
+составить список из 3 лучших мест в москве
+
+AI:
+для посещения
+1 Красная площадь;
+2 Третьяковская Галерея;
+3 Парк Горького.
 ```
 
 - - - -
