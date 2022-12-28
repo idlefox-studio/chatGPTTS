@@ -3,11 +3,13 @@
 Simple Integration of OpenAI chatGPT with gTTS
 
 ## Documentation
+<Table><td>
 
 See the [OpenAI API docs](https://beta.openai.com/docs/api-reference?lang=python).
+</td><td>
 
 See the [gTTS Documentation](https://gtts.readthedocs.io/en/latest/).
-
+</td></Table>
 ## Installation
 
 In order to be able to run the script you have to make sure that you have the requiered Libraries installed
