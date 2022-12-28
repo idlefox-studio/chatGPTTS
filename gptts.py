@@ -1,7 +1,7 @@
-# mastyDev 2022.12
+# @mastyDev 2022.12
 import os
 import time
-import openai # pip install openai
+import openai
 import gtts 
 import contextlib
 with contextlib.redirect_stdout(None):
@@ -19,8 +19,6 @@ def speak(text, language='en'):
     pygame.mixer.music.play()
 
 #input 
-# start_sequence = "\nAI:\n"
-# restart_sequence = "\nHuman:\n"
 print("chatGPTTS")
 desc=input(f"\nHuman:\n")
 response = openai.Completion.create(
