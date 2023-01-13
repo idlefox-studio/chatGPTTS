@@ -12,14 +12,19 @@ See the [gTTS Documentation](https://gtts.readthedocs.io/en/latest/).
 
 In order to be able to run the script you have to make sure that you have the requiered Libraries installed
 
+#### chatGPT 
 ```sh
-pip install --upgrade openai # chatGPT 
+pip install --upgrade openai
 ```
+
+#### Google Text-to-Speech
 ```sh
-pip install gtts # Google Text-to-Speech
+pip install gtts
 ```
+
+#### Audio playback
 ```sh
-pip install pygame # for audio playback
+pip install pygame
 ```
 - - - -
 ## Usage
@@ -183,7 +188,7 @@ For a given language, **Google gTTS** can speak in different local ‘accents’
 >```python
 >import gtts
 >
->tts = gtts.gTTS(text,lang="en",tld="co.uk", slow=False)
+>tts = gtts.gTTS(text,lang="en",tld="co.in", slow=False)
 >```
 
 <table><td>
