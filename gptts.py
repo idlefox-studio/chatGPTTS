@@ -2,7 +2,7 @@
 import os
 import time
 import openai
-import gtts 
+import gtts
 import contextlib
 with contextlib.redirect_stdout(None):
     import pygame
@@ -19,7 +19,7 @@ def speak(text, language='en'):
     pygame.mixer.music.play()
 
 print("chatGPTTS")
-#input 
+#input
 desc=input(f"\nHuman:\n")
 response = openai.Completion.create(
   model="text-davinci-003",
@@ -37,4 +37,3 @@ while pygame.mixer.music.get_busy() == True:
     time.sleep(1)
 else:
     pygame.mixer.music.stop()
-    time.sleep(0)
